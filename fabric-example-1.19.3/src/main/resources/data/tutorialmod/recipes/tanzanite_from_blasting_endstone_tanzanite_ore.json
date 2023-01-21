@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "tanzanite",
+  "ingredient": {"item": "tutorialmod:endstone_tanzanite_ore"},
+  "result": "tutorialmod:tanzanite"
+}
