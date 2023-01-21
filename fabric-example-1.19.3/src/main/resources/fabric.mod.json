@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "example",
+  "id": "tutorialmod",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Tutorial Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "MSymbios"
@@ -18,10 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.msymbios.example.ExampleMod"
+      "net.msymbios.example.TutorialMod"
     ],
     "client": [
-      "net.msymbios.example.ExampleModClient"
+      "net.msymbios.example.TutorialModClient"
     ]
   },
   "mixins": [
