@@ -1,6 +1,7 @@
 package net.msymbios.example;
 
 import net.fabricmc.api.ModInitializer;
+import net.msymbios.example.block.ModBlocks;
 import net.msymbios.example.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	} // onInitialize ()
 
 } // Class TutorialMod
