@@ -18,8 +18,8 @@ public class ModItems {
             new Item(new FabricItemSettings()), ModItemGroup.TANZANITE);
 
     // -- Methods --
-    private static Item registerItem(String name, Item item, ItemGroup itemGroup) {
-        ItemGroupEvents.modifyEntriesEvent(itemGroup).register(entries -> entries.add(item));
+    private static Item registerItem(String name, Item item, ItemGroup tab) {
+        ItemGroupEvents.modifyEntriesEvent(tab).register(entries -> entries.add(item));
         return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MODID, name), item);
     } // registerItem ()
 
