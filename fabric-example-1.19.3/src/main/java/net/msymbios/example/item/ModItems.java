@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.msymbios.example.TutorialMod;
+import net.msymbios.example.item.custom.EightBallItem;
 
 public class ModItems {
 
@@ -16,6 +17,8 @@ public class ModItems {
             new Item(new FabricItemSettings()), ModItemGroup.TANZANITE);
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings()), ModItemGroup.TANZANITE);
+    public static final Item EIGHT_BALL = registerItem("eight_ball",
+            new EightBallItem(new FabricItemSettings().maxCount(1)), ModItemGroup.TANZANITE);
 
     // -- Methods --
     private static Item registerItem(String name, Item item, ItemGroup tab) {
