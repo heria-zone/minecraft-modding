@@ -35,6 +35,7 @@ public class TanzaniteLampBlock extends Block {
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         super.appendProperties(builder);
+        builder.add(LIT);
     } // appendProperties ()
 
 } // Class TanzaniteLampBlock
